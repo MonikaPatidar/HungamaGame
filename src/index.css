@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Heading{
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+}
+#reset{
+  position: fixed;
+  left: 110%;
+  top: -10%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  border-radius: 10%;
+}
+.newgame{
+  position: fixed;
+  left: 116%;
+  top: -12.5%;
+  transform: translate(-50%, -50%);
+}
+.counterClock{
+  position: fixed;
+  left: 25%;
+  top: 12.5%;
+}
+.Keyboard{
+  position: fixed;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  width:50%;
+  height:90%;
+}
+
+.keyboardButton{
+  height:20%;
+  width:10%;
+  margin: 0.5%;
+}
+.saveGame{
+  position: fixed;
+  left: 65%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  
+}
